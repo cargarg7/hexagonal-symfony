@@ -1,5 +1,6 @@
 idea behind the structure:
 
+```
 src/
     /Acme - application code
         /Bundle - contains one application bundle that integrates our application with framework. ONLY THESE CLASSES ARE AWARE
@@ -10,3 +11,4 @@ src/
     /YourCompany - contains general libraries, not connected directly with the domain & our application (like log & cache libraries)
         /Bundle - symfony bundles that integrates the general-purpose libraries
         /Component - general-purpose libraries
+```        
